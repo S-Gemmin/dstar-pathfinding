@@ -7,7 +7,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Library target
 add_library(pathfinding
-    src/AStar.cpp
     src/DStarLite.cpp
     src/Grid.cpp
     src/MinHeapMap.cpp

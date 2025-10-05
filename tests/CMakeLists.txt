@@ -8,7 +8,6 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(unit_tests
-    test_AStar.cpp
     test_DStarLite.cpp
     test_Grid.cpp
     test_MinHeapMap.cpp
